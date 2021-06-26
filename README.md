@@ -31,3 +31,12 @@ c)  Installed a driver that is incompatible with your current system, or
 d)  Have a missing .dll file in your system folder.
 
 As always, your first step in debugging this should be to look at the system problem reports - this will give you a clue as to which program, device, driver, or missing dll is causing the error. If the problem reports do not point to a specific file, you should remove the most recently-installed piece of hardware in your system.
+
+## 0x00000003 - INVALID_AFFINITY_SET
+#### Microsoft's Definition
+The INVALID_AFFINITY_SET bug check has a value of 0x00000003.
+
+This bug check appears very infrequently.
+
+#### Layman's Explanation
+Honestly? I couldn't find any documentation that describes what this means. (If you possess the knowledge of what this error means, please submit an issue report.) Based on the error code, it seems as though it occurs when a program attempting to run on your computer has an invalid *affinity* setting. Program affinity in Windows defines which individual CPU cores are allowed to run a certain program. This is often used to limit the amount of cores a program uses. 
