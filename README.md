@@ -6,7 +6,7 @@ If you're like me, you've experienced a few bluescreens in your time - whether i
 A Blue Screen of Death (BSOD) is a fatal error similar to UNIX-like's Kernel Panic. A fatal error does not mean your computer is dead - a fatal system error is when an error in Windows' kernel (the core operating system program) causes the machine to halt, ending in a reboot. A BSOD may be recurring, and may even happen during the system's start up procedure, causing an infinite boot-loop. Knowing what the bluescreen means, or at least, narrowing down what it *could* mean, is the first step towards an effective diagnosis of computer issues.
 
 ## Table of Contents
-1.
+1. #0x00000001---apc_index_mismatch
 
 ### 0x00000001 - APC_INDEX_MISMATCH
 #### Microsoft's Definition
